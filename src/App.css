@@ -1,0 +1,126 @@
+/* PeakTix Application Layout & Grid Styles */
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--bg-dark);
+}
+
+.main-content {
+  flex: 1;
+  max-width: 1240px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 24px 80px;
+  box-sizing: border-box;
+}
+
+/* Section Header */
+.events-section {
+  margin-top: 10px;
+}
+
+.events-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 28px;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.events-title {
+  font-size: 30px;
+  font-weight: 800;
+  color: var(--text-primary);
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.events-title-pill {
+  font-size: 13px;
+  font-family: var(--font-body);
+  font-weight: 600;
+  padding: 4px 10px;
+  background: rgba(225, 29, 72, 0.15);
+  color: var(--accent-coral);
+  border: 1px solid rgba(225, 29, 72, 0.3);
+  border-radius: 20px;
+}
+
+.events-count {
+  font-size: 14px;
+  color: var(--text-secondary);
+  margin: 0;
+}
+
+/* Events Grid - Large, cinematic cards */
+.events-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+}
+
+/* Empty State */
+.no-events {
+  text-align: center;
+  padding: 80px 24px;
+  background: var(--bg-surface);
+  border: 1px dashed var(--border-subtle);
+  border-radius: 20px;
+  margin: 20px 0;
+}
+
+.no-events-icon {
+  font-size: 48px;
+  display: block;
+  margin-bottom: 16px;
+  opacity: 0.8;
+}
+
+.no-events h3 {
+  font-size: 22px;
+  color: var(--text-primary);
+  margin: 0 0 8px;
+}
+
+.no-events p {
+  margin: 0;
+  font-size: 15px;
+  color: var(--text-secondary);
+}
+
+/* Responsive Breakpoints */
+@media (max-width: 1120px) {
+  .events-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+}
+
+@media (max-width: 800px) {
+  .events-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+  }
+  .events-title {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 540px) {
+  .main-content {
+    padding: 0 16px 60px;
+  }
+  .events-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  .events-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

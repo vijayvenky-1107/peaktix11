@@ -1,0 +1,223 @@
+/**
+ * Seed data for PeakTix Indian Entertainment Platform.
+ *
+ * NOTE: All events below are fictional sample events created strictly for
+ * demonstration and preview purposes. Artist names and categories represent
+ * recognizable Indian entertainment genres; dates, venues, and ticket counts
+ * are simulated demo data and do not represent official live schedules.
+ */
+export const seedEvents = [
+  {
+    id: 1,
+    title: "Arijit Singh — Soulful Symphony Arena Tour (Demo Showcase)",
+    category: "Playback singer concerts",
+    language: "Hindi",
+    date: "Nov 28, 2026",
+    time: "7:00 PM",
+    venue: "Jio World Garden, BKC",
+    city: "Mumbai",
+    price: 1999, // ₹1,999
+    available: 45,
+    image: "https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?w=700&h=900&fit=crop&q=80",
+    description: "Experience the golden voice of Indian playback cinema live with a 40-piece grand orchestra. A mesmerising night of chart-topping romantic ballads and Sufi anthems. (Fictional demo event)",
+    featured: 1,
+  },
+  {
+    id: 2,
+    title: "Anirudh Ravichander — Hukum Rock Stadium Live (Demo Showcase)",
+    category: "Live music festivals",
+    language: "Tamil",
+    date: "Dec 12, 2026",
+    time: "6:30 PM",
+    venue: "Jawaharlal Nehru Stadium",
+    city: "Chennai",
+    price: 1499, // ₹1,499
+    available: 12,
+    image: "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=700&h=900&fit=crop&q=80",
+    description: "The Rockstar of Kollywood brings his high-octane stadium tour with thunderous EDM drops, mass hero theme anthems, and an electric laser showcase. (Fictional demo event)",
+    featured: 1,
+  },
+  {
+    id: 3,
+    title: "AR Rahman — Panchathan Symphony & Scores (Demo Showcase)",
+    category: "Film music and tribute concerts",
+    language: "Tamil / Hindi",
+    date: "Jan 16, 2027",
+    time: "7:00 PM",
+    venue: "DY Patil Stadium",
+    city: "Navi Mumbai",
+    price: 2499, // ₹2,499
+    available: 25,
+    image: "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=700&h=900&fit=crop&q=80",
+    description: "Two-time Academy Award winner A.R. Rahman conducts his signature cinematic themes from Roja to Ponniyin Selvan with international soloists and choir. (Fictional demo event)",
+    featured: 1,
+  },
+  {
+    id: 4,
+    title: "Brahmastra Live — Astraverse Orchestra & Visuals (Demo Showcase)",
+    category: "Bollywood / Hindi cinema",
+    language: "Hindi",
+    date: "Nov 21, 2026",
+    time: "8:00 PM",
+    venue: "Nesco Center, Goregaon",
+    city: "Mumbai",
+    price: 1299, // ₹1,299
+    available: 30,
+    image: "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?w=700&h=900&fit=crop&q=80",
+    description: "A breathtaking live-to-film theatrical performance celebrating Indian fantasy cinema, backed by cinematic lighting and live choir choruses. (Fictional demo event)",
+    featured: 0,
+  },
+  {
+    id: 5,
+    title: "Ponniyin Selvan — Chola Empire Theatrical Musical (Demo Showcase)",
+    category: "Kollywood / Tamil cinema",
+    language: "Tamil",
+    date: "Jan 24, 2027",
+    time: "6:00 PM",
+    venue: "Sir Mutha Venkatasubba Rao Concert Hall",
+    city: "Chennai",
+    price: 899, // ₹899
+    available: 20,
+    image: "https://images.unsplash.com/photo-1507676184212-d03ab07a01bf?w=700&h=900&fit=crop&q=80",
+    description: "The grand historical saga staged live with authentic period orchestration, classical Bharatanatyam sequences, and state-of-the-art stage projection. (Fictional demo event)",
+    featured: 0,
+  },
+  {
+    id: 6,
+    title: "Telugu Mega Musical — SPB & Ilaiyaraaja Classics (Demo Showcase)",
+    category: "Telugu cinema / Tollywood",
+    language: "Telugu",
+    date: "Dec 5, 2026",
+    time: "7:00 PM",
+    venue: "Gachibowli Indoor Stadium",
+    city: "Hyderabad",
+    price: 999, // ₹999
+    available: 18,
+    image: "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?w=700&h=900&fit=crop&q=80",
+    description: "A star-studded live homage to the golden era of Tollywood melodies, featuring renowned playback vocalists and a 30-piece live string ensemble. (Fictional demo event)",
+    featured: 0,
+  },
+  {
+    id: 7,
+    title: "Shreya Ghoshal — All Hearts Tour Bangalore (Demo Showcase)",
+    category: "Playback singer concerts",
+    language: "Multi-lingual",
+    date: "Dec 20, 2026",
+    time: "7:00 PM",
+    venue: "Manpho Convention Centre",
+    city: "Bengaluru",
+    price: 1799, // ₹1,799
+    available: 35,
+    image: "https://images.unsplash.com/photo-1465847899084-d164df4dedc6?w=700&h=900&fit=crop&q=80",
+    description: "India's celebrated vocal virtuoso presents a multi-lingual concert journey traversing Hindi, Kannada, Tamil, and Malayalam chartbusters. (Fictional demo event)",
+    featured: 1,
+  },
+  {
+    id: 8,
+    title: "Mollywood Indie Beats — Kerala Backwater Fest (Demo Showcase)",
+    category: "Malayalam cinema",
+    language: "Malayalam",
+    date: "Jan 9, 2027",
+    time: "5:30 PM",
+    venue: "Bolgatty Palace Grounds",
+    city: "Kochi",
+    price: 799, // ₹799
+    available: 40,
+    image: "https://images.unsplash.com/photo-1501386761578-eac5c94b800a?w=700&h=900&fit=crop&q=80",
+    description: "Open-air lakeside celebration of contemporary Malayalam new-wave film soundtracks, indie rock collectives, and traditional Chenda percussion fusion. (Fictional demo event)",
+    featured: 0,
+  },
+  {
+    id: 9,
+    title: "Sandalwood Folk-Rock — Raghu Dixit & Friends (Demo Showcase)",
+    category: "Kannada cinema / Sandalwood",
+    language: "Kannada",
+    date: "Dec 18, 2026",
+    time: "6:30 PM",
+    venue: "Palace Grounds, Jayamahal",
+    city: "Bengaluru",
+    price: 849, // ₹849
+    available: 28,
+    image: "https://images.unsplash.com/photo-1524368535928-5b5e00ddc76b?w=700&h=900&fit=crop&q=80",
+    description: "Energetic folk-rock rhythms blending Kannada lyrical poetry, rustic violin riffs, and electrifying stage choreography. (Fictional demo event)",
+    featured: 0,
+  },
+  {
+    id: 10,
+    title: "Sid Sriram — All Love Acoustic & Classical Fusion (Demo Showcase)",
+    category: "Playback singer concerts",
+    language: "Tamil / Telugu",
+    date: "Feb 6, 2027",
+    time: "7:30 PM",
+    venue: "Shilpakala Vedika",
+    city: "Hyderabad",
+    price: 1599, // ₹1,599
+    available: 22,
+    image: "https://images.unsplash.com/photo-1511192336575-5a79af67a629?w=700&h=900&fit=crop&q=80",
+    description: "Carnatic soul meets contemporary R&B. An intimate, candlelit auditorium experience celebrating love ballads and devotional improvisations. (Fictional demo event)",
+    featured: 0,
+  },
+  {
+    id: 11,
+    title: "Sunburn Goa 2026 — Indian Electronic Showcase (Demo Showcase)",
+    category: "Live music festivals",
+    language: "Festival / EDM",
+    date: "Dec 29, 2026",
+    time: "4:00 PM",
+    venue: "Vagator Coastal Arena",
+    city: "Goa",
+    price: 3499, // ₹3,499
+    available: 60,
+    image: "https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?w=700&h=900&fit=crop&q=80",
+    description: "Asia's premier dance music gathering featuring homegrown electronic producers, bass music innovators, and stunning seaside stage designs. (Fictional demo event)",
+    featured: 1,
+  },
+  {
+    id: 12,
+    title: "90s Bollywood Retro Blast — 50-Piece Brass & Strings (Demo Showcase)",
+    category: "Film music and tribute concerts",
+    language: "Hindi",
+    date: "Jan 30, 2027",
+    time: "7:00 PM",
+    venue: "Siri Fort Auditorium",
+    city: "New Delhi",
+    price: 1199, // ₹1,199
+    available: 35,
+    image: "https://images.unsplash.com/photo-1465847899084-d164df4dedc6?w=700&h=900&fit=crop&q=80",
+    description: "Take a nostalgic journey through the timeless 90s cassette era of Nadeem-Shravan, Jatin-Lalit, and Anand-Milind, performed by veteran studio musicians. (Fictional demo event)",
+    featured: 0,
+  },
+];
+
+export const categories = [
+  "All",
+  "Bollywood / Hindi cinema",
+  "Kollywood / Tamil cinema",
+  "Malayalam cinema",
+  "Telugu cinema / Tollywood",
+  "Kannada cinema / Sandalwood",
+  "Playback singer concerts",
+  "Live music festivals",
+  "Film music and tribute concerts",
+];
+
+export const languages = [
+  "All Languages",
+  "Hindi",
+  "Tamil",
+  "Telugu",
+  "Malayalam",
+  "Kannada",
+  "Multi-lingual",
+];
+
+export const cities = [
+  "All Cities",
+  "Mumbai",
+  "Chennai",
+  "Bengaluru",
+  "Hyderabad",
+  "Kochi",
+  "New Delhi",
+  "Goa",
+];
